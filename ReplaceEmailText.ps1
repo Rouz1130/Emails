@@ -6,7 +6,6 @@ $final_email =  'final_email.html'
 Foreach-Object {
   $_ -replace '\[HEADER_COLOR\]','#0d1121'`
      -replace '\[STATUS_MESSAGE\]','Investigating'
-
-}  | 
-
+  
+}  
 Set-Content $final_email
