@@ -1,3 +1,4 @@
+# Invoke-Command -computername $computerName {Remove-Item -path $args[0] -Recurse} -ArgumentList $RegKey
 $template = 'office365.html'
 $final_email =  'final_email.html'
 
